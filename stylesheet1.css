@@ -1,0 +1,19 @@
+body{
+    background-color: bisque;
+}
+.first{
+    color:red;
+    font-size: 300%;
+    
+}
+.third{
+    font-size: 200%
+}
+.fourth{
+    color: green;
+    font-size: 200%;
+}
+.fifth{
+    color:cadetblue;
+    font-size: 170%;
+}

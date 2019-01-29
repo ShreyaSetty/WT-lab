@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <body>
+    <script type="text/javascript">
+        var a = [10,20,30,40,50];
+        function move(a,x,y){
+            a = [10,20,30,40,50];
+            
+            if(x<0)
+                x = a.length + x;
+
+            if(y<0)
+                y = a.length + y;
+
+            var c = a[x];
+            
+            a.splice(x,1);
+            a.splice(y,0,c);
+            return a;
+        };
+        
+        document.writeln(move(a,0,2));
+        document.writeln("<br>");
+        document.writeln(move(a,-1,-2));
+        
+    </script>
+    </body>
+</html>
